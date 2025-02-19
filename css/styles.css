@@ -40,6 +40,8 @@ header .wrapper{
     justify-content: center;
     align-items: center;
     margin: 0 auto; 
+    padding: 0;
+    height: 200px;
 }
 
 /*section slogan*/
@@ -71,4 +73,69 @@ header .wrapper{
     justify-content: center;
     align-items: center;
 
+}
+.regles article{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.regles h2{
+    font-family:"Quicksand", serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+.regles a:hover{
+    background-color: #BDC3C7;
+}
+.regles .guillemets{
+    justify-content: flex-start;
+}
+.regles .windows{
+    justify-content: flex-start;
+}
+.regles .nsb{
+    justify-content: flex-end;
+}
+.regles .line{
+    justify-content: flex-end;
+}
+
+/* section info */
+.info .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    font-family:"Roboto", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    margin: 40px auto;
+}
+.info span{
+    font-weight: bold;
+}
+
+/* footer */
+footer{
+    background-color: #2980B9;
+}
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p {
+    font-family:"Roboto", serif;
+    font-size: 2rem;
+}
+.boutontop{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 5px solid #BDC3C7;
+    border-radius: 100%;
+    font-size: 2.1rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
