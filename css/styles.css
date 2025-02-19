@@ -19,6 +19,7 @@ GÉNÉRIQUE
 
 a{
     text-decoration: none;
+    background-color: #ffffff;
 }
 /*========================================================================================
 COMPONENTS
@@ -72,7 +73,6 @@ header .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .regles article{
     display: flex;
@@ -84,9 +84,13 @@ header .wrapper{
     font-size: 3.6rem;
     font-weight: 400;
 }
+
+
 .regles a:hover{
-    background-color: #BDC3C7;
+background-color: #BDC3C7;
+    
 }
+
 .regles .guillemets{
     justify-content: flex-start;
 }
